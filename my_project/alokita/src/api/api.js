@@ -11,6 +11,8 @@ export const submitForm = async(formData)=>{
             headers:{
                 'Content-type':'application/json; charset=UTF-8',
             },
+
+            
         });
         if (!response.ok) {
             throw new Error('Network response was  not ok');
